@@ -1,0 +1,21 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "apollo-datasource": "0.3.1",
+    "apollo-server": "2.4.8",
+    "graphql": "14.1.1",
+    "graphql-tools": "4.0.4",
+    "lodash": "4.17.11",
+    "mongodb": "3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
